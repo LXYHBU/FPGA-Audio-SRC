@@ -1,4 +1,4 @@
-FPGA-Audio-SRC: 基于 FPGA 的高保真音频采样率变换系统 🎵
+# FPGA-Audio-SRC: 基于 FPGA 的高保真音频采样率变换系统 🎵
 📖 项目简介
 本项目是一个基于 FPGA 的数字音频采样率变换（SRC, Sample Rate Converter）系统。旨在解决不同音频标准（如 CD 机的 44.1kHz 与专业音频的 48kHz）之间的数字交互问题。
 
