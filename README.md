@@ -68,6 +68,17 @@ Plaintext
 连接 PCM1808 和 PCM5102A 模块。
 
 分配引脚并生成 Bitstream 烧录至 FPGA。使用信号发生器输入 1kHz 正弦波，示波器观察输出波形即可。
+##. 采样率变换与时域波形比对
+在本地解调回环中，针对跨时钟域处理（CDC）及多速率信号收发需求，对多组多相采样率变换前后的仿真波形进行了打拍对齐与时序同步验证：
+
+![时域多速率变换波形比对](images/Time-domain_waveform_comparison.png)
+
+## fir滤波前后数字频谱（FFT）特性对比
+通过 MATLAB 对 FPGA 内部整流后数据及 128点 滑动平均 LPF 输出数据进行高分辨率快速傅里叶变换（FFT）：
+
+| 滤波前脉动直流频谱 (`fft_Before_Filtering`) | 滤波后平滑基带包络频谱 (`fft_After_Filtering`) |
+| :---: | :---: |
+| ![滤波前FFT](images/fft_Before_Filtering.png) | ![滤波后FFT](images/fft_After_Filtering.png) |
 ## 📷 装置实物展示
 
 ![装置实物图](images/hardware.jpg)
