@@ -71,7 +71,7 @@ Plaintext
 ##. 采样率变换与时域波形比对
 在本地解调回环中，针对跨时钟域处理（CDC）及多速率信号收发需求，对多组多相采样率变换前后的仿真波形进行了打拍对齐与时序同步验证：
 
-![时域多速率变换波形比对](images/Time-domain_waveform_comparison.jpg)
+![时域多速率变换波形比对](images/Time_comparison.jpg)
 
 ## fir滤波前后数字频谱（FFT）特性对比
 通过 MATLAB 对 FPGA 内部整流后数据及 128点 滑动平均 LPF 输出数据进行高分辨率快速傅里叶变换（FFT）：
