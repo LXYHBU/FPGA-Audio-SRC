@@ -82,3 +82,5 @@
 ## 📷 装置实物展示
 
 ![装置实物图](images/hardware.jpg)
+
+> **📄 文档资料：** [点击此处在线阅读《设计报告.pdf》](design_report/doc.pdf)
