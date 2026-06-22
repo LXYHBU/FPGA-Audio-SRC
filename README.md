@@ -74,7 +74,7 @@
 ![采样率前后时域波形对比（肉眼几乎无法察觉）](images/Time_comparison.jpg)
 
 ## fir滤波前后数字频谱（FFT）特性对比
-通过 MATLAB 对 FPGA 内部整流后数据及 128点 滑动平均 LPF 输出数据进行高分辨率快速傅里叶变换（FFT）：
+ fir滤波输出数据进行高分辨率快速傅里叶变换（FFT）：
 
 | 滤波前频谱 (`fft_Before_Filtering`) | 滤波后频谱 (`fft_After_Filtering`) |
 | :---: | :---: |
