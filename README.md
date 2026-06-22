@@ -65,3 +65,6 @@ Plaintext
 连接 PCM1808 和 PCM5102A 模块。
 
 分配引脚并生成 Bitstream 烧录至 FPGA。使用信号发生器输入 1kHz 正弦波，示波器观察输出波形即可。
+## 📷 装置实物展示
+
+![装置实物图](images/hardware.jpg)
