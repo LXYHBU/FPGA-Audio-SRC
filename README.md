@@ -76,7 +76,7 @@ Plaintext
 ## fir滤波前后数字频谱（FFT）特性对比
 通过 MATLAB 对 FPGA 内部整流后数据及 128点 滑动平均 LPF 输出数据进行高分辨率快速傅里叶变换（FFT）：
 
-| 滤波前脉动直流频谱 (`fft_Before_Filtering`) | 滤波后平滑基带包络频谱 (`fft_After_Filtering`) |
+| 滤波前频谱 (`fft_Before_Filtering`) | 滤波后频谱 (`fft_After_Filtering`) |
 | :---: | :---: |
 | ![滤波前FFT](images/fft_Before_Filtering.jpg) | ![滤波后FFT](images/fft_After_Filtering.jpg) |
 ## 📷 装置实物展示
